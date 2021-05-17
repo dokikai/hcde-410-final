@@ -1,0 +1,39 @@
+**Motivation and Problem Statement**
+
+This project is mainly meant to approach the question of medicalized inequality, specifically in the realm of drug prices and their gendered and racialized implications. Espescially given the current political climate of institutional discrimination on the basis of race, sexuality, gender, etc - insights regarding something as life-saving as access to pharmaceutical medications. Some insights I hope to gain are in the realm as to which drugs are disproportionally expensive and hoping to draw inferences as to the rationale behind the disparate monetization of certain drugs. For transparency's sake - part of my interest in this assignment comes from a personal relevance as the possibility of acquiring HIV remains a terrifying reality for myself and millions of other queer youth (magnified even further by race). After having a conversation with my healthcare provider, I learned that Truvada and many other drugs that help prevent HIV transmission can be accompanied by out of pocket costs of over $1,000 so approaching this question of drug costs is to see and measure the extent to which certain drugs are made inaccessible due to costs.
+
+I chose the dataset that I found here:
+https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Information-on-Prescription-Drugs/MedicarePartD
+
+Because it contained a well documented dashboard with data over time along with it being an official website of the United States government which provides some semblence of credibility with regards to the averages they produce as governmental institutions generally have pretty transparent practices when it comes to these types of data productions. It contains information on how much the average drug costs and it has an assosciated legend that does an amazing job describing each attribute of the various files. Also, because the data has already been aggregated and sanitized, there aren't any direclty identifying pieces of information with regards to people's medical records. It also has a huge number of medications with descriptions of the medications usages and treatment plans. There is also a drug methodology document which runs through the process of acquiring the information and dataset (found here: https://www.cms.gov/files/document/medicare-part-d-drug-spending-methodology-2019.pdf). The other dataset I found was provided by the US Department of Veteran Affairs at this link: https://www.va.gov/opal/nac/fss/pharmPrices.asp and is listed under "pharma_prices.csv" in my repository. I intend to use both of these for reference. As for usage of this data - the CMS data is qualified as a Public Use Files (PUF) which is aggregated and contain no identifying information and the Department of Veteran Affairs data is also Open Data (in fact both are technically open data that requires no lisence because they are published by the government).
+
+As for any unknowns, I am not entirely sure. I have had some health issues throughout this quarter that have definitely made this quarter significantly more stressful than most. I also think COVID has given me a lot more responsibilities than I previously had, espescially with regards to taking care of my mom. That being said, I do think I should be able to at least get some insights regarding certain drug usages and their assosciated costs and writing an analysis on the costs and connecting them to broader, more social issues shouldn't be much of an issue for me.
+
+
+Research questions (or hypotheses): 
+Research question: What are some of the average costs of HIV medication in the United States and how do costs compare relative to other affluent nations?
+
+Background and/or Related Work: No matter what you choose to investigate, it’s almost certain that someone has investigated it (or a related phenomenon) before. Scientists always review previous work when beginning a new research study.
+
+https://www.amfar.org/cost-of-hiv-rising/#:~:text=A%20new%20study%20reports%20a,%2425%2C000%20to%20%2435%2C000%20in%202012.
+
+Discussing the relevance and important context to HIV and ART treatment in the United States and reasons why costs are changing. Gives context and necessary information to understand why this topic is relevant, the scope and impacts of these changes, and the degrees to which this is affected by legal, social, and economic incentives.
+
+https://www.nytimes.com/2018/09/18/opinion/pricing-hiv-drugs-america.html
+This article highlights a comparative difference in HIV drug treatment in Africa being around 75$ a year as opposed to $39,000 a year in the United States. This doesn't consider the various income differences, but in all this shows the huge cost differences in the regions.
+https://globalnews.ca/news/5236142/antiretroviral-drugs-stop-hiv-transmission-cost/
+
+Discusses how Canadian and other Countries have ART (Anti-retroviral Treatment) that are not necessarily uniformed. Canada is oftentimes internationally praised for its equitable healthcare system, but it's ART healthcare provisions actually are very dependent on the region. Some provinces have significantly better coverage than others, so geography matters when it comes to accessibility. For situations like these, we will consider the general cases of coverage as opposed to the fringe ones. So if a country "generally" provides cheap ART access, it will be comparatively analyzed as a nation with that standard.
+
+Generally, these articles and research all find that US prices are high, but generally do not make direct comparisons or comparative claims regarding ART accessibility. And it generally makes me walk into this study expecting US prices to be higher. Many of the articles I read through cited that US patent protections along with drug rights are direct causes to exploitatively high prices and that confirms my pre-disposition that the US is generally pretty predatory with its HIV pricing.
+
+
+Methodology: Describe how you plan to investigate this phenomenon.
+
+This is my vision as to how my process will unfold.
+
+1. I'm going to use the data I gathered to find prices of US drug costs for ART and HIV treatment in particular. To deal with this efficiently as there are tens of thousands of different drugs, I intend to utilize Python and related pandas libraries to filter and sort the data accordingly. I am thinking of only displaying drugs that have "HIV," "AIDS" or "ART" in their descriptions and then utilizing that data.
+2. After aggregating and filtering data, I will then be looking particularly at the consumer costs of the drug, not things like manufacturing and such. Then, I intend to find things like averages, medians, rounded modes, and extreme outliers in terms of costs and using that to compare costs to similar costs in other countries. That part may require more data and research on my end, which I will have to assess at the time.
+3. I intend to present my findings using data visualizations (in particular, bar charts and possibly geospatial data) to visualize differences and highlight certain countries higher costs. This might lend itself easier to a table aswell, so I intend to use my discretion when I reach that point of the assignment. 
+4. My assessment is meant to be less statistically focused but more focused on seeing discrepencies between costs. As a result, the emphasis on my project will be on visualizing the results and observing differences between countries - so certain statistical methods (of which I am not the most familiar with) will not be implemented such as t tests or recurrent neural networking.
+5. I intend to present my findings and analyze potential reasons for cost disparities (domestic law, federal policies, socio-economic norms, etc).
