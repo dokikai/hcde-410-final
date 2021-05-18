@@ -1,4 +1,4 @@
-##Motivation and Problem Statement
+## Motivation and Problem Statement
 
 This project is mainly meant to approach the question of medicalized inequality, specifically in the realm of drug prices and their gendered and racialized implications. Especially given the current political climate of institutional discrimination on the basis of race, sexuality, gender, etc - insights regarding something as life-saving as access to pharmaceutical medications. Some insights I hope to gain are in the realm as to which drugs are disproportionally expensive and hoping to draw inferences as to the rationale behind the disparate monetization of certain drugs. For transparency's sake - part of my interest in this assignment comes from a personal relevance as the possibility of acquiring HIV remains a terrifying reality for myself and millions of other queer youth (magnified even further by race). After having a conversation with my healthcare provider, I learned that Truvada and many other drugs that help prevent HIV transmission can be accompanied by out of pocket costs of over $1,000 so approaching this question of drug costs is to see and measure the extent to which certain drugs are made inaccessible due to costs.
 
@@ -9,7 +9,7 @@ Because it contained a well documented dashboard with data over time along with 
 
 As for any unknowns, I am not entirely sure. I have had some health issues throughout this quarter that have definitely made this quarter significantly more stressful than most. I also think COVID has given me a lot more responsibilities than I previously had, especially with regards to taking care of my mom. That being said, I do think I should be able to at least get some insights regarding certain drug usages and their associated costs and writing an analysis on the costs and connecting them to broader, more social issues shouldn't be much of an issue for me.
 
-##A5 Project Proposal
+## A5 Project Proposal
 
 *Pivot*: The initial scope of my project proposal is a bit too much for me to tackle and as a result of the COVID-19 pandemic the scope of the project has been shifted to be specific to HIV medication costs in the United States. The original dataset found above is still going to be referenced for costs and medication information, but will not be used to perform aggregated insights or comparative quantitative analysis.
 
